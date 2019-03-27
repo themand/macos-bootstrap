@@ -1,0 +1,364 @@
+{
+  "description" : "Required for macOS and iCloud services",
+  "name" : "macOS",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1552165018.826432,
+      "modificationDate" : 1552165018.826432,
+      "owner" : "system",
+      "process" : "\/System\/Library\/PrivateFrameworks\/ApplePushService.framework\/apsd",
+      "remote-domains" : "push.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552166618.5950851,
+      "modificationDate" : 1552166618.5950851,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/GeoServices.framework\/Versions\/A\/XPCServices\/com.apple.geod.xpc\/Contents\/MacOS\/com.apple.geod",
+      "protocol" : "tcp",
+      "remote-domains" : "ls.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552166612.960465,
+      "modificationDate" : 1552166612.960465,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/GeoServices.framework\/Versions\/A\/XPCServices\/com.apple.geod.xpc\/Contents\/MacOS\/com.apple.geod",
+      "protocol" : "tcp",
+      "remote-domains" : "ls.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552166565.1711168,
+      "modificationDate" : 1552166565.1711168,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AOSKit.framework\/Versions\/A\/XPCServices\/com.apple.iCloudHelper.xpc\/Contents\/MacOS\/com.apple.iCloudHelper",
+      "protocol" : "tcp",
+      "remote-hosts" : "setup.icloud.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552170764.658232,
+      "modificationDate" : 1552170764.658232,
+      "owner" : "system",
+      "ports" : "123",
+      "process" : "\/usr\/libexec\/timed",
+      "protocol" : "udp",
+      "remote-hosts" : "time-macos.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552171373.9948211,
+      "modificationDate" : 1552171373.9948211,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/nsurlsessiond",
+      "protocol" : "tcp",
+      "remote-hosts" : "gateway.icloud.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552171328.8321261,
+      "modificationDate" : 1552171451.6767259,
+      "owner" : "me",
+      "ports" : "192",
+      "process" : "\/System\/Library\/CoreServices\/SystemUIServer.app\/Contents\/MacOS\/SystemUIServer",
+      "protocol" : "udp",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552171928.7055058,
+      "modificationDate" : 1552171928.7055058,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/CloudKitDaemon.framework\/Support\/cloudd",
+      "protocol" : "tcp",
+      "remote-hosts" : "gateway.icloud.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552171883.3192039,
+      "modificationDate" : 1552171883.3192039,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/locationd",
+      "protocol" : "tcp",
+      "remote-domains" : "apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552171908.399987,
+      "modificationDate" : 1552171908.399987,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/CoreServices\/Spotlight.app\/Contents\/MacOS\/Spotlight",
+      "protocol" : "tcp",
+      "remote-hosts" : "apple-finance.query.yahoo.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552172156.8003149,
+      "modificationDate" : 1552172156.8003149,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/Tourist.framework\/Versions\/A\/Resources\/touristd",
+      "protocol" : "tcp",
+      "remote-hosts" : "help.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552172509.284544,
+      "modificationDate" : 1552172509.284544,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/GeoServices.framework\/Versions\/A\/XPCServices\/com.apple.geod.xpc\/Contents\/MacOS\/com.apple.geod",
+      "protocol" : "tcp",
+      "remote-domains" : "configuration.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552172528.0224061,
+      "modificationDate" : 1552172528.0224061,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/CommerceKit.framework\/Versions\/A\/Resources\/commerce",
+      "protocol" : "tcp",
+      "remote-domains" : "apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552173083.012754,
+      "modificationDate" : 1552173083.012754,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/CoreServices\/Stocks.app\/Contents\/PlugIns\/com.apple.ncplugin.stocks.appex\/Contents\/MacOS\/com.apple.ncplugin.stocks",
+      "protocol" : "tcp",
+      "remote-domains" : "apple-finance.query.yahoo.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552323892.8466458,
+      "modificationDate" : 1552323892.8466458,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/adprivacyd",
+      "protocol" : "tcp",
+      "remote-domains" : "apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552241289.5308518,
+      "modificationDate" : 1552241289.5308518,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AppStoreDaemon.framework\/Support\/appstoreagent",
+      "protocol" : "tcp",
+      "remote-domains" : "itunes.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552323800.8757691,
+      "modificationDate" : 1552323800.8757691,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "protocol" : "tcp",
+      "remote-hosts" : "lcdn-locator.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552323840.767921,
+      "modificationDate" : 1552323840.767921,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/System\/Library\/PrivateFrameworks\/Noticeboard.framework\/Versions\/A\/Resources\/nbagent.app\/Contents\/MacOS\/nbagent",
+      "protocol" : "tcp",
+      "remote-hosts" : "swcdn.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552323827.037133,
+      "modificationDate" : 1552323827.037133,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/Noticeboard.framework\/Versions\/A\/Resources\/nbagent.app\/Contents\/MacOS\/nbagent",
+      "protocol" : "tcp",
+      "remote-hosts" : "swscan.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552323818.8407822,
+      "modificationDate" : 1552323818.8407822,
+      "owner" : "system",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/nsurlsessiond",
+      "protocol" : "tcp",
+      "remote-domains" : "apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552323733.747364,
+      "modificationDate" : 1552323733.747364,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/nsurlsessiond",
+      "protocol" : "tcp",
+      "remote-domains" : "apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552241800.746604,
+      "modificationDate" : 1552241800.746604,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/CoreParsec.framework\/parsecd",
+      "protocol" : "tcp",
+      "remote-domains" : "smoot.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552323884.3612208,
+      "modificationDate" : 1552323884.3612208,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/rtcreportingd",
+      "protocol" : "tcp",
+      "remote-domains" : "apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552323783.9809799,
+      "modificationDate" : 1552323783.9809799,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/System\/Library\/CoreServices\/Software Update.app\/Contents\/Resources\/softwareupdated",
+      "protocol" : "tcp",
+      "remote-domains" : "apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552323783.9809799,
+      "modificationDate" : 1552323783.9809799,
+      "owner" : "system",
+      "ports" : "80",
+      "process" : "\/System\/Library\/CoreServices\/Software Update.app\/Contents\/Resources\/softwareupdated",
+      "protocol" : "tcp",
+      "remote-domains" : "apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552323835.268085,
+      "modificationDate" : 1552323835.268085,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/CommerceKit.framework\/Versions\/A\/Resources\/storeassetd",
+      "protocol" : "tcp",
+      "remote-domains" : "itunes.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552241461.9796572,
+      "modificationDate" : 1552241461.9796572,
+      "owner" : "system",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "ocsp.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552243527.202704,
+      "modificationDate" : 1552243527.202704,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552489595.548553,
+      "modificationDate" : 1552489595.548553,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/System\/Library\/PrivateFrameworks\/IDS.framework\/identityservicesd.app\/Contents\/MacOS\/identityservicesd",
+      "protocol" : "tcp",
+      "remote-domains" : "apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552491629.3446279,
+      "modificationDate" : 1552491629.3446279,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/System\/Library\/PrivateFrameworks\/IMCore.framework\/imagent.app\/Contents\/MacOS\/imagent",
+      "protocol" : "tcp",
+      "remote-domains" : "apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552325375.662432,
+      "modificationDate" : 1552325375.662432,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/keyboardservicesd",
+      "protocol" : "tcp",
+      "remote-hosts" : "configuration.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552491634.4603992,
+      "modificationDate" : 1552491634.4603992,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/System\/Library\/PrivateFrameworks\/MessagesKit.framework\/Versions\/A\/Resources\/soagent.app\/Contents\/MacOS\/soagent",
+      "protocol" : "tcp",
+      "remote-domains" : "apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552384505.4353709,
+      "modificationDate" : 1552384505.4353709,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/syspolicyd",
+      "protocol" : "tcp",
+      "remote-domains" : "apple-cloudkit.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552505577.224189,
+      "modificationDate" : 1552505577.224189,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AuthKit.framework\/Versions\/A\/Support\/akd",
+      "protocol" : "tcp",
+      "remote-domains" : "apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1553540785.114219,
+      "modificationDate" : 1553540785.114219,
+      "owner" : "system",
+      "ports" : "80",
+      "process" : "\/usr\/sbin\/ocspd",
+      "protocol" : "tcp",
+      "remote-domains" : "apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1553596126.507962,
+      "modificationDate" : 1553596126.507962,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/HelpData.framework\/Versions\/A\/Resources\/helpd",
+      "protocol" : "tcp",
+      "remote-domains" : "apple.com"
+    }
+  ]
+}

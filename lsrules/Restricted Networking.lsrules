@@ -1,0 +1,40 @@
+{
+  "description" : "Disabled NetBIOS, Multicast DNS (Bonjour), etc",
+  "name" : "Restricted Networking",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1552170270.4860139,
+      "direction" : "incoming",
+      "modificationDate" : 1552170322.6202111,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1552170393.7172761,
+      "modificationDate" : 1552170393.7172761,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1552170762.9069381,
+      "direction" : "incoming",
+      "modificationDate" : 1552170820.037075,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/netbiosd",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1552170826.196027,
+      "modificationDate" : 1552170826.196027,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/netbiosd",
+      "remote" : "any"
+    }
+  ]
+}
