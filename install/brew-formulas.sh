@@ -7,6 +7,6 @@ set -euo pipefail
 H1 "Installing brew formulas"
 
 brew install openssl
+brew install pinentry-mac
 brew install gnupg
 brew install jq
-
