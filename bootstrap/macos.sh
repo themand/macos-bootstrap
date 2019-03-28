@@ -289,7 +289,7 @@ H3 "Reloading settings"
 sudo killall mds
 H3 "Rebuilding the index from scratch"
 sudo mdutil -i off /
-sudo rm -rf /.Spotlight-V100/
+sudo mdutil -E /
 sudo mdutil -i on /
 
 H2 "Terminal.app"
