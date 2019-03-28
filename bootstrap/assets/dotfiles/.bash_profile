@@ -16,3 +16,7 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 export HOMEBREW_NO_GITHUB_API=1
 export HOMEBREW_NO_INSECURE_REDIRECT=1
 export HOMEBREW_CASK_OPTS=--require-sha
+
+if [ -f "$HOME/.bash_profile_custom" ]; then
+    source "$HOME"/.bash_profile_custom
+fi
